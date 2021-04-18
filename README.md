@@ -74,9 +74,7 @@ The `description` metadata shows up as the description in a search result depict
 
 Most search engines do not use the `keywords` metadata when running a search; however, there is always a slim chance that the `keywords` defined can assist in searches. It is not necessary to include, but if it is included, it should list relevant keywords.
 
-#### Links
-
-**`<link rel="" href="">`**
+#### Links **`<link rel="" href="">`**
 
 HTML External Resource Links (Links) are used to specify the relationship between a current HTML document and the resource linked in the `href`. The `link` tag includes a `rel` (relationship) attribute, an attribute to specify what the relationship between the current HTML document and the linked document/file, and an `href` attribute, an attribute that provides the path to the resource being linked. Links are often associated with `stylesheet` relationships, but they can also be used for favicons and other resources. Links contain other attributes, but the two most important are `rel` and `href`.
 
