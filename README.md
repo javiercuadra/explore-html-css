@@ -37,6 +37,7 @@ or unused tags or styles, so be sure to look at those if interested.
 
 ## HTML
 ### Head
+#### Meta Tags and Title
 **`content-type`**
 
 This metadata declares the MIME type and character encoding of the document.
@@ -72,3 +73,15 @@ The `description` metadata shows up as the description in a search result depict
 **`keywords`**
 
 Most search engines do not use the `keywords` metadata when running a search; however, there is always a slim chance that the `keywords` defined can assist in searches. It is not necessary to include, but if it is included, it should list relevant keywords.
+
+#### Links
+
+**`<link rel="" href="">`**
+
+HTML External Resource Links (Links) are used to specify the relationship between a current HTML document and the resource linked in the `href`. The `link` tag includes a `rel` (relationship) attribute, an attribute to specify what the relationship between the current HTML document and the linked document/file, and an `href` attribute, an attribute that provides the path to the resource being linked. Links are often associated with `stylesheet` relationships, but they can also be used for favicons and other resources. Links contain other attributes, but the two most important are `rel` and `href`.
+
+
+## CSS
+### CSS Reset
+
+A CSS Reset is a CSS file that targets styles that are normally different in different browsers. A CSS Reset ensures that all browsers have a common starting point by targeting specific styles that are explicitly different from the styles of another browser. [`sanitize.css`](https://csstools.github.io/sanitize.css/) is my choice of CSS Reset. I prefer `sanitize.css` because it is more opinionated and separates the styles it *sanitizes* with a separate typography and a separate form stylesheet. Another favorite is the less opinionated [`normalize.css`](https://csstools.github.io/normalize.css/) which `sanitize.css` developed over. Therefore, `sanitize.css` is effectively a superset of `normalize.css`.
