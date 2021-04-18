@@ -1,0 +1,83 @@
+/* ==================================================
+		Variable Definitions
+================================================== */
+
+html{
+  /**************************************************
+	    Color Declarations
+  **************************************************/
+
+  /***** Color Palette *****/
+
+  /* Main Color Scheme */
+  --palette-my-pink: #d98c8c;
+  --palette-petite-orchid: hsl(17, 50%, 70%);
+  --palette-brandy: #d9af8c;
+  --palette-burlywood: #d9bb8c;
+  --palette-ecru: #d9c88c;
+  --palette-deco: #d9d58c;
+  --palette-yellow-green-crayola: #d0d98c;
+  --palette-tea-green: #c3d98c;
+  --palette-feijoa: #b6d98c;
+  --palette-granny-smith-apple: #8cd98c;
+
+  /* Gray Scale Scheme */
+  --palette-athens-gray: #F3F3F4;
+  --palette-iron: #d7d7da;
+  --palette-french-gray: #bdbdc2;
+  --palette-santas-gray: #a2a2a9;
+  --palette-waterloo: #888891;
+  --palette-storm-gray: #6e6e77;
+  --palette-scarpa-flow: #56565d;
+  --palette-tuna: #3d3d42;
+  --palette-shark: #252528;
+  --palette-zeus: #14110F;
+
+  /* Color Functions */
+
+  --x-clr-def-font: var(--palette-zeus);
+  --x-clr-alt-font: var(--palette-athens-gray);
+
+  --x-clr-def-bg: var(--palette-athens-gray);
+  --x-clr-alt-bg: var(--palette-zeus);
+
+  --x-clr-def-accent: var(--palette-feijoa);
+  --x-clr-alt-accent: var(--palette-burlywood);
+
+  --x-clr-success: var(--palette-granny-smith-apple);
+  --x-clr-error: var(--palette-my-pink);
+  --x-clr-warning:var(--palette-deco);
+
+  /**************************************************
+	    Font Declarations
+  **************************************************/
+
+  --heading-font: sans-serif;
+  --copy-font: serif;
+
+  --base-font-size: 16pt;
+
+  /**************************************************
+	    Breakpoints Declarations
+  **************************************************/
+
+  /* Apply to media queries as (max-width: $small-breakpoint)
+  for extra small devices and (min-width: $small-breakpoint)
+  for small devices. */
+  --small-breakpoint: 600px;
+
+  /* Apply to media queries as (min-width: $medium-breakpoint) for medium size devices. */
+  --medium-breakpoint: 768px;
+
+  /* Apply to media queries as (min-width: $large-breakpoint) for large devices. */
+  --large-breakpoint: 992px;
+
+  /* Apply to media queries as (min-width: $extra-large-breakpoint) for extra large devices. */
+  --extra-large-breakpoint: 1200px;
+
+  /**************************************************
+	    Timing Declarations
+  **************************************************/
+
+  --standard-animation-time: 500ms;
+}
