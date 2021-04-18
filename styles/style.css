@@ -46,7 +46,7 @@ html{
 
   --x-clr-success: var(--palette-granny-smith-apple);
   --x-clr-error: var(--palette-my-pink);
-  --x-clr-warning:var(--palette-deco);
+  --x-clr-warning: var(--palette-deco);
 
   /**************************************************
 	    Font Declarations
@@ -81,3 +81,22 @@ html{
 
   --standard-animation-time: 500ms;
 }
+
+/* ==================================================
+		Global Styles
+================================================== */
+
+body{
+  font-size: var(--base-font-size);
+  font-family: var(--copy-font);
+  color: var(--x-clr-def-font);
+  background: var(--x-clr-def-bg);
+}
+
+hgroup, h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font);
+}
+
+/* ==================================================
+		Specific Styles
+================================================== */
