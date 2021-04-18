@@ -22,3 +22,53 @@ did it, should they ever come across my page, and more seasonsed developers
 to notice the thoroughness of this project.
 
 Thank you for joining me in this journey. Let us begin.
+
+---
+
+## How to use this repository
+
+This repository will include commits for every new tag I showcase and new styling
+technique I want to show off. You can read the commits for more information.
+Alternatively, I will be updating the README periodically to showcase the different
+pieces I include. Likewise, this site will include branches with any deprecated
+or unused tags or styles, so be sure to look at those if interested.
+
+---
+
+## HTML
+### Head
+**`content-type`**
+
+This metadata declares the MIME type and character encoding of the document.
+
+1. **The MIME type** (`text/html`) is primarily used when loading the webpage locally, so the browser is aware of what type of file it will be parsing. It is not necessary when loaded through HTTP, since there is a `Content-Type` heading in the HTTP request. In this case, we are defining the MIME type as a text file written in HTML.
+
+2. **The character encoding** (`charset=UTF-8`) instructs the browser on what character encoding is used for this page. This is important because it overwrites the platform default encoding which could lead to disasterous results for your site. In our case, we want the character set to be [UTF-8 (external link)](https://blog.hubspot.com/website/what-is-utf-8).
+
+**`viewport`**
+
+This metadata sets allows for websites to be mobile responsive by sizing the `viewport`, the visible area of a webpage on a display device. It containse two specific properties: `width` and `initial-scale`.
+
+1. **`width`** controls the size of the `viewport`. When defined as `device-width` as we have done in this project, the `width` of the `viewport` will be the `width` of the device.
+
+2. **`initial-scale`** controls the zoom level when the page is first loaded. When `initial-scale=1.0`, we are ensuring the zoom level is maintained when orientation is changed, and the zoom level is not too zoomed in or too zoomed out on the site after load.
+
+**`title`**
+
+The `title` shows up as the header of any search result as depicted in the image below. The `title` is also used by search engines for searches, so it is important to keep the `title` concise and relevant to the page for maximum results.
+
+![SREP example with metadata sections highlighted.](./assets/img/meta_data_in_srep.png)
+
+**`author`**
+
+The `author` is not a necessary metadata for SEO or any pertinent function. I simply include it in my files for pride's sake.
+
+**`description`**
+
+The `description` metadata shows up as the description in a search result depicted in the image below. It ought to describe the page, ideally selling to the user why they should enter your page. It is not used in SEO, but it is shown when searching as seen below.
+
+![SREP example with metadata sections highlighted.](./assets/img/meta_data_in_srep.png)
+
+**`keywords`**
+
+Most search engines do not use the `keywords` metadata when running a search; however, there is always a slim chance that the `keywords` defined can assist in searches. It is not necessary to include, but if it is included, it should list relevant keywords.
